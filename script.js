@@ -1,4 +1,4 @@
-// handle First Class Tiker
+// handle First Class Ticket
 incBtnForFirstClass = document.getElementById('first-classs-ticket-increase-btn');
 incBtnForFirstClass.addEventListener('click', function() {
     const firstClassInput = document.getElementById('first-classs-ticket-text-field');
@@ -23,7 +23,7 @@ decBtnForFirstClass.addEventListener('click', function() {
 });
 
 
-// handle Economy Class Tiker
+// handle Economy Class Ticket
 incBtnForEconomyClass = document.getElementById('economy-classs-ticket-increase-btn');
 incBtnForEconomyClass.addEventListener('click', function() {
     const economyClassInput = document.getElementById('economy-classs-ticket-text-field');
